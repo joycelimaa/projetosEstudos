@@ -1,0 +1,88 @@
+body{
+    margin: 0;
+    background-color:#0C4A6E;
+    ;
+}
+
+.container{
+    display:flex;
+    justify-content:space-around;
+}
+
+h3{
+    height: 36px;
+    width: 149px;
+    left: 85px;
+    top: 68px;
+    border-radius: nullpx;
+    margin-bottom: -40px;
+
+    font-family: Verdana;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #EEEEEE;
+
+}
+
+@font-face {
+    font-family: Cursed Timer ULiL;
+    src: url('CursedTimerUlil-Aznm.ttf') format('truetype'); 
+    /*
+    tipos de format()
+    - opentype (otf)
+    -truetype (ttf)
+    - embedded-opentype
+    -truetype-aat (apple advanced typography)
+    -svg
+    */
+}
+
+#contador1, #contador2{
+    
+    /*caixa preta*/
+    height: 120px;
+    width: 155px;
+    left: 82px;
+    top: 125px;
+    border-radius: 5px;
+    background: #000000;
+    border-radius: 5px;
+    margin-bottom: 25px;
+    
+    /*fonte*/
+  
+    font-family: Cursed Timer ULiL;
+    font-size: 90px;
+    font-weight: 400;
+    line-height: 127px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #F94F6D;
+
+}
+
+button{
+
+    box-sizing: border-box;
+    width: 45px;
+    height: 45px;
+    left: 82px;
+    top: 271px;
+    
+    border: 2px solid #9AABD8;
+    border-radius: 5px;
+    background: none;
+
+    font-family: Cursed Timer ULiL;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #9AABD8;
+    margin-right: 5px;
+    
+}
